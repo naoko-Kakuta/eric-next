@@ -1,90 +1,454 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Progate</title>
-  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="stylesheet.css">
-</head>
-<body>
-  <header>
-    <div class="container">
-      <div class="header-left">
-        <img class="logo" src="https://prog-8.com/images/html/advanced/main_logo.png">
-      </div>
-      <span class="fa fa-bars menu-icon"></span>
-      <div class="header-right">
-        <a href="#">レッスン</a>
-        <a href="#">新規登録</a>
-        <a href="#" class="login">ログイン</a>
-      </div>
-    </div>
-  </header>
-  <div class="top-wrapper">
-    <div class="container">
-      <h1>LEARN TO CODE.<br>LEARN TO BE CREATIVE.</h1>
-      <p>Progateはオンラインプログラミング学習サービスです。<br>初心者にもやさしいスライドとレッスンで、ウェブサービスを作りながらプログラミングを学んでいきましょう。</p>
-      <div class="btn-wrapper">
-        <a href="#" class="btn signup">新規登録はこちら</a>
-        <p>or</p>
-        <a href="#" class="btn facebook"><span class="fa fa-facebook"></span>Facebookで登録</a>
-        <a href="#" class="btn twitter"><span class="fa fa-twitter"></span>Twitterで登録</a>
-      </div>
-    </div>
-  </div>
-  <div class="lesson-wrapper">
-    <div class="container">
-      <div class="heading">
-        <h2>Learn Where to Get Started!</h2>
-      </div>
-      <div class="lessons">
-        <div class="lesson">
-          <div class="lesson-icon">
-            <img src="https://prog-8.com/images/html/advanced/html.png">
-            <p>HTML & CSS</p>
-          </div>
-          <p class="text-contents">ウェブページの作成に使用される言語です。HTMLとCSSを組み合わせることで、静的なページを作り上げることができます。</p>
-        </div>
-        <div class="lesson">
-          <div class="lesson-icon">
-            <img src="https://prog-8.com/images/html/advanced/jQuery.png">
-            <p>jQuery</p>
-          </div>
-          <p class="text-contents">素敵な動きを手軽に実装できるJavaScriptライブラリです。 アニメーション効果をつけたり、Ajax（エイジャックス）を使って外部ファイルを読み込んだりと色々なことができます。</p>
-        </div>
-        <div class="lesson">
-          <div class="lesson-icon">
-            <img src="https://prog-8.com/images/html/advanced/ruby.png">
-            <p>Ruby</p>
-          </div>
-          <p class="text-contents">オープンソースの動的なプログラミング言語で、 シンプルさと高い生産性を備えています。大きなWebアプリケーションから小さな日用ツールまで、さまざまなソフトウェアを作ることができます。</p>
-        </div>
-        <div class="lesson">
-          <div class="lesson-icon">
-            <img src="https://prog-8.com/images/html/advanced/php.png">
-            <p>PHP</p>
-          </div>
-          <p class="text-contents">HTMLだけではページの内容を変えることはできません。PHPはHTMLにプログラムを埋め込み、それを可能にします。</p>
-        </div>
-      </div>
-      <div class="clear"></div>
-    </div>
-  </div>
-  <div class="message-wrapper">
-    <div class="container">
-      <div class="heading">
-        <h2>さぁ、あなたもProgateでプログラミングを学んでみませんか?</h2>
-        <h3>Let's learn to code, learn to be creative!</h3>
-      </div>
-      <span class="btn message">さっそく開発する</span>
-    </div>
-  </div>
-  <footer>
-    <div class="container">
-      <img src="https://prog-8.com/images/html/advanced/footer_logo.png">
-      <p>Learn to Code, Learn to be Creative.</p>
-    </div>
-  </footer>
-</body>
-</html>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<HTML>
+<HEAD>
+	<META HTTP-EQUIV="Content-Type" CONTENT="text/html; CHARSET=Shift_JIS">
+	<META HTTP-EQUIV="Content-Language" CONTENT="ja">
+	<META http-equiv="Content-Style-Type" content="text/css">
+	<LINK rel="stylesheet" type="text/css" href="style.css">
+	<LINK rel="stylesheet" type="text/css" href="font.css">
+	<LINK rel="stylesheet" type="text/css" href="table.css">
+	<META http-equiv="Pragma" content="no-cache">
+	<META http-equiv="imagetoolbar" content="no">
+	<META name="keywords" content="ERIC,国際理解教育センター,国際理解教育,教育,持続可能性,相互依存,多様性,有限性,環境,開発,コミュニケーション,異文化理解,自己理解,平和,人権,ジェンダー,対立,地域社会,参加,未来" />
+	<META name="description" content="ERIC 国際理解教育センターは、国際化する市民社会にあって人類共通の課題を知り、問題解決の意欲と技能を備えた人間形成に役立つ新しい学習・教授法を海外から紹介し、それを実践普及するために日本で最初に設立された資料・情報センターです。" />
+	<SCRIPT LANGUAGE="JavaScript" SRC="common.js"></SCRIPT>
+<TITLE>ERIC 国際理解教育センター</TITLE>
+</HEAD>
+
+<BODY>
+<CENTER>
+<TABLE BORDER="0" ALIGN="center" CELLPADDING="0" CELLSPACING="0" CLASS="bdall">
+	<TR>
+		<TD COLSPAN="3" CLASS="headermenu" ALIGN="LEFT" VALIGN="BOTTOM">
+			<SCRIPT LANGUAGE="JavaScript">WriteHeaderMenu(1);</SCRIPT>
+		</TD>
+	</TR>
+	<TR><TD COLSPAN="3" CLASS="header01" ALIGN="RIGHT" VALIGN="TOP"></TD></TR>
+	<TR><TD COLSPAN="3" CLASS="header02" ALIGN="RIGHT" VALIGN="TOP"></TD></TR>
+	<TR>
+		<TD COLSPAN="3" CLASS="header03" ALIGN="RIGHT" VALIGN="TOP" WIDTH="100%">
+			<SCRIPT LANGUAGE="JavaScript">WriteSmallMenu();</SCRIPT>&nbsp;
+		</TD>
+	</TR>
+	<TR CLASS="nb">
+		<!--▼▼ left(Menu) ▼▼-->
+		<TD CLASS="left" ALIGN="CENTER" VALIGN="TOP"  HEIGHT="100%">
+			<BR><A HREF="text01.html"><IMG SRC="image/btn_text.gif"></A><BR><BR>
+			<BR><SCRIPT LANGUAGE="JavaScript">WrirteLeftMenu();</SCRIPT><BR><BR>
+		</TD>
+		<!--▲▲ left(Menu) ▲▲-->
+		<TD CLASS="main" VALIGN="TOP">
+			<!--▼▼ TITLE BER ▼▼-->
+			<IMG SRC="image/tm_home.gif" BORDER="0">
+			<TABLE BORDER="0" CELLPADDING="0" CELLSPACING="0">
+				<TR CLASS="nb">
+					<TD CLASS="brank" VALIGN="TOP" ALIGN="CENTER">&nbsp;</TD><!-- brank -->
+					<TD CLASS="mainarea">
+					<!--▼▼▼▼ MAIN(本文) ▼▼▼▼-->
+					<img src="image/omimai.gif" />
+                    <div style="border: 1px solid #000; margin: 1px 6px 1px 4px; padding: 10px;">
+<B>■□■ERIC主催研修　ESDファシリテーターズ・カレッジ　ご案内■□■</B><br>
+<BR>
+
+                     <a href="https://docs.google.com/forms/d/1f60acCe66xor5Wj_6Kg_qZZZtWGcMRuJR9ATL0G_XeQ/viewform">
+                      <span style="color:rgb(0,0,255);">webでの申込はこちらから</span></a><br>
+<BR>
+<BR>
+<B>■□■2018年度ERIC主催研修   ESDファシリテーターズ・カレッジ日程
+<BR><BR>
+<a href="news/ESDfc2018leaflet.pdf" target="_blank">2018年度(平成30年度)の主催研修のカラーチラシです。</a><br>
+<BR>
+□テーマ編<BR>
+■「国際理解」　　 2018 年(平成 30年)  6月 23-24日　　　<a href="news/atERIC18ＷＳyoukou.pdf" target="_blank">実施要項はこちらから。</a><BR>
+■「環境」             2018 年(平成 30 年) 7月 28-29日　　　<a href="news/atERIC18PLTyoukou.pdf" target="_blank">実施要項はこちらから。</a><BR>
+■「人権」             2018 年(平成 30 年) 9月 29-30日　　　<a href="news/atERIC18ＨＲyoukou.pdf" target="_blank">実施要項はこちらから。</a><BR>
+<BR>
+□スキル編<BR>
+■「わたし」2018 年(平成 30 年)　10月 27-28日　　<a href="news/atERIC18ＭＥyoukou.pdf" target="_blank">実施要項はこちらから。</a> <br>
+■「あなた」 2018 年(平成 30年)　11月 17-18日　　　<a href="news/atERIC18ＣＲyoukou.pdf" target="_blank">実施要項はこちらから。</a><br>
+■「みんな」 2019 年(平成 31 年)　1 月 26-27日　　　<a href="news/atERIC18ＶＶyoukou.pdf" target="_blank">実施要項はこちらから。</a><BR>
+<BR>
+□　TEST2019教育力向上講座<BR>
+■　2019年(平成31年)3月下旬予定 </B><br>
+<BR>
+                      <a href="news/atERIC18moushikomisho.pdf" target="_blank">2018年度(平成30年度)の主催研修の申込み書はこちらから。</a>
+<BR>
+                     <a href="https://docs.google.com/forms/d/1f60acCe66xor5Wj_6Kg_qZZZtWGcMRuJR9ATL0G_XeQ/viewform">
+                      <span style="color:rgb(0,0,255);">webでの申込はこちらから</span></a><br>
+<BR>
+<BR>
+					<B>■□■ERIC主催研修　ESDファシリテーターズ・カレッジ　2017年度研修記録■□■</B><br>  
+<BR><B>
+■　2018年(平成30年)3月24日25日終了しました。 </B><br>
+                      <a href="news/TEST18kiroku.pdf" target="_blank">ＴＥＳＴ2018教育力向上講座の記録はこちらから。</a>
+<BR>
+<BR>
+					<B>■□■ERIC主催研修　ESDファシリテーターズ・カレッジ　2016年度研修記録■□■</B><br>  
+<BR>
+                       <a href="news/ESDfc2016WS.pdf" target="_blank">2016年6月25日26日テーマ「国際理解」終了。記録PDFです。</a><br>
+                       <a href="news/ESDfcPLT2016.pdf" target="_blank">2016年7月30日31日テーマ「PLT・環境」終了。記録PDFです。</a><br>
+                       <a href="news/ESDfc2016HRkiroku.pdf" target="_blank">2016年9月24日25日テーマ「わたしから始まる人権」終了。記録PDFです。</a><br>
+                       <a href="news/ESDfc2016CR.pdf" target="_blank">2016年10月29日30日スキル「関係性・対立から学ぼう」終了。記録PDFです。</a><br>
+                       <a href="news/ESDfcVV2016kiroku.pdf" target="_blank">2016年11月26日27日スキル「市民性・未来を学ぼう」終了。記録PDFです。</a><br>
+                       <a href="news/TEST2017kiroku.pdf" target="_blank">2017年3月18日19日TEST教育力向上講座終了。記録PDFです。</a><br>
+
+
+<BR>
+
+
+<BR>
+　　　　　　　　 <a href="http://eric-net.org/news/ESDfcYosherSeminar2014.docx" target="_blank"><span style="color:rgb(0,153,51);">ESDファシリテーターズ･カレッジ・サポート・プログラムはこちらから</span></a>
+<BR>
+<BR>
+</a><br></div>
+					
+              <BR><BR>
+					<DIV ALIGN="CENTER" CLASS="fs14pt fw_bold"><IMG SRC="image/lbl_index_top.gif"></DIV>
+					<BR>
+					<DIV ALIGN="CENTER">
+						<TABLE BORDER="0" HEIGHT="220">
+							<TR>
+								<TD WIDTH="200" ALIGN="CENTER" VALIGN="CENTER"><A HREF="by-eric.html#BY"><IMG SRC="image/eric_by.gif"></A></TD>
+								<TD WIDTH="200" ALIGN="CENTER" VALIGN="CENTER"><A HREF="by-eric.html#FROM"><IMG SRC="image/eric_from.gif"></A></TD>
+							</TR>
+							<TR>
+								<TD WIDTH="200" ALIGN="CENTER" VALIGN="CENTER"><A HREF="by-eric.html#AT"><IMG SRC="image/eric_at.gif"></A></TD>
+								<TD WIDTH="200" ALIGN="CENTER" VALIGN="CENTER"><A HREF="by-eric.html#WITH"><IMG SRC="image/eric_with.gif"></A></TD>
+							</TR>
+						</TABLE>
+					</DIV>
+					<BR>
+
+					<!-- What's New -->
+<DIV ALIGN="CENTER">
+						<TABLE CLASS="FIXD" WIDTH="500" BORDER="0" CELLPADDING="5" CELLSPACING="0">
+							<TR>
+								<TD><IMG SRC="image/tab_what.gif"></TD>
+							</TR>
+						</TABLE>
+
+					<TABLE CLASS="FIXD" WIDTH="490" BORDER="0" CELLPADDING="9" CELLSPACING="0">
+                <TR> 
+                    <TD width="60"  ALIGN="LEFT" VALIGN="TOP" CLASS="underline">2018.8.22</TD>
+                    <TD ALIGN="LEFT" VALIGN="TOP" CLASS="underline"> ・<a href="news/competency.pdf"target="_blank">ESD7つのコンピテンシー点検表です。</a>
+　　　　　　　　 </TD>
+
+              </TR> 
+                <TR> 
+                    <TD width="60"  ALIGN="LEFT" VALIGN="TOP" CLASS="underline">2018.4.4</TD>
+                    <TD ALIGN="LEFT" VALIGN="TOP" CLASS="underline"> ・ERICのメールアドレスが「eric1」に変わりました。ドメインはこれまで通りです。
+　　　　　　　　 </TD>
+
+              </TR> 
+             <TR> 
+                    <TD width="60"  ALIGN="LEFT" VALIGN="TOP" CLASS="underline">2018.3.29</TD>
+                    <TD ALIGN="LEFT" VALIGN="TOP" CLASS="underline"> ・<a href="news/TEST18kiroku.pdf"target="_blank">TEST18の記録できました。</a>
+　　　　　　　　 </TD>
+
+              </TR>
+       <TR> 
+                    <TD width="60"  ALIGN="LEFT" VALIGN="TOP" CLASS="underline">2018.2.18</TD>
+                    <TD ALIGN="LEFT" VALIGN="TOP" CLASS="underline"> ・<a href="news/calendar_info.pdf"target="_blank">「わたし」を育てる「Bimonthly 日めくりカレンダー「あ」」できました。</a>
+　　　　　　　　 </TD>
+
+              </TR>
+ 
+       <TR> 
+                    <TD width="60"  ALIGN="LEFT" VALIGN="TOP" CLASS="underline">2017.6.30</TD>
+                    <TD ALIGN="LEFT" VALIGN="TOP" CLASS="underline"> ・<a href="news/ERICsurvey2017layout.docx" target="_blank">ERICの収活に・Eﾂいてのアンケートです。ぜひご協力ください。返信先はeric(a)eric-net.orgです。</a>
+　　　　　　　　 </TD>
+
+              </TR>
+                     <TR> 
+                    <TD width="60"  ALIGN="LEFT" VALIGN="TOP" CLASS="underline">2017.06.30</TD>
+                    <TD ALIGN="LEFT" VALIGN="TOP" CLASS="underline">2017年度総会報告です。アンケートの参考にしてください。<br>
+                                       　　<a href="news/ERICsoukai2017discussion.pdf"target="_blank"> ・総会検討課題</a></TD>
+              </TR>
+          <TR> 
+                    <TD width="60"  ALIGN="LEFT" VALIGN="TOP" CLASS="underline">2017.6.6</TD>
+                    <TD ALIGN="LEFT" VALIGN="TOP" CLASS="underline"> ・<a href="https://www.plt.org/plt-transition/" target="_blank">PLTの新しい動きです。2017年7月から移行予定です。</a> 
+　　　　　　　　</TD>
+                  </TR>
+         <TR> 
+                    <TD width="60"  ALIGN="LEFT" VALIGN="TOP" CLASS="underline">2017.5.6</TD>
+                    <TD ALIGN="LEFT" VALIGN="TOP" CLASS="underline"> ・<a href="news/TEST2017inOsakakiroku.pdf" target="_blank">TEST教育力向上講座in大阪の記録です。</a>
+　　　　　　　　 </TD>
+                  </TR>
+    <TR> 
+                    <TD width="60"  ALIGN="LEFT" VALIGN="TOP" CLASS="underline">2017.3.30</TD>
+                    <TD ALIGN="LEFT" VALIGN="TOP" CLASS="underline"> ・草創期のＥＲＩＣニュースレター＆通信をブログにまとめました。<br>
+              		<A HREF="http://ericletter.exblog.jp/">&nbsp;ERIC NEWSLETTER & ERIC通信　バックナンバー</A> 
+　　　　　　</TD>
+                  </TR>
+        <TR> 
+                    <TD width="60"  ALIGN="LEFT" VALIGN="TOP" CLASS="underline">2017.3.27</TD>
+                    <TD ALIGN="LEFT" VALIGN="TOP" CLASS="underline"> ・<a href="news/ESDfc2017leaflet.pdf" target="_blank">ESDファシリテーターズ・カレッジ案内チラシをご活用ください。</a>
+　　　　　　　　 </TD>
+                  </TR>
+ 
+      <TR> 
+                    <TD width="60"  ALIGN="LEFT" VALIGN="TOP" CLASS="underline">2017.3.27</TD>
+                    <TD ALIGN="LEFT" VALIGN="TOP" CLASS="underline"> ・<a href="news/ERICnews2016.pdf" target="_blank">2016年度発行のERIC NEWSの一覧です。</a> 
+　　　　　　　　　</TD>
+                  </TR>
+         
+                 <TR> 
+                    <TD width="60"  ALIGN="LEFT" VALIGN="TOP" CLASS="underline">2014.2.08</TD>
+                    <TD ALIGN="LEFT" VALIGN="TOP" CLASS="underline"> ・<a href="plt07.html" target="_blank">PLT「各地のファシリテーターからの参考資料を追加しました。</a>
+　　　　　　　　</TD>
+                  </TR>
+                  <TR> 
+                    <TD  ALIGN="LEFT" VALIGN="TOP" CLASS="underline">2012.06.10</TD>
+                    <TD ALIGN="LEFT" VALIGN="TOP" CLASS="underline"> ・PLT講習会情報のブログを開設しました。<br>
+                                       　　<a href="http://pltjapan.exblog.jp/" target="_blank">http://pltjapan.exblog.jp/</a></TD>
+              </TR>
+
+					<!-- 新着テキ・Xト -->
+<DIV ALIGN="CENTER">
+						<TABLE CLASS="FIXD" WIDTH="500" BORDER="0" CELLPADDING="5" CELLSPACING="0">
+							<TR>
+								<TD><IMG SRC="image/tab_newtext.gif"></TD>
+							
+
+</TR>
+						</TABLE>
+						
+                <TABLE CLASS="FIXD" WIDTH="500" BORDER="0" CELLPADDING="8" CELLSPACING="0">
+   <TR> 
+                    <TD CLASS="underline" WIDTH="60" ALIGN="LEFT" VALIGN="TOP">2018.4.16</TD>
+                    <TD CLASS="underline" WIDTH="400" ALIGN="LEFT" VALIGN="TOP">高次の思考スキルを育てる「12のものの見方考え方」徹底活用のためのワークシートを作成しました。<br>
+                      　　<a href="news/12frameworks.pdf" target="_blan">大学生のための「12のものの見方考え方ジャーナル」</a> 
+
+                    </TD>
+                  </TR>
+ <TR> 
+                    <TD CLASS="underline" WIDTH="60" ALIGN="LEFT" VALIGN="TOP">2018.3.28</TD>
+                    <TD CLASS="underline" WIDTH="400" ALIGN="LEFT" VALIGN="TOP">ERIC主催研修で使用するハンドブックの2018年版です。改訂ｖ２<br>
+                      　・E@<a href="news/FHBfromERIC2018v2.pdf" target="_blan">ESDファシリテーターズ・カレッジ　ハンドブック2018</a> 
+
+                    </TD>
+                  </TR>
+<TR> 
+                    <TD CLASS="underline" WIDTH="60" ALIGN="LEFT" VALIGN="TOP">2018.1.25</TD>
+                    <TD CLASS="underline" WIDTH="400" ALIGN="LEFT" VALIGN="TOP">ERIC主催研修で使用する人権研修のための基本資料です。気づきから行動への基本的な経験学習の在り方、行動化への課題を含む。<br>
+                      　　<a href="news/HR2018.pdf" target="_blan">人権資料2018</a> 
+
+                    </TD>
+                  </TR>
+ <TR> 
+                    <TD CLASS="underline" WIDTH="60" ALIGN="LEFT" VALIGN="TOP">2017.11.15</TD>
+                    <TD CLASS="underline" WIDTH="400" ALIGN="LEFT" VALIGN="TOP">マイクロアグレッションを見過ごさず、小悪魔にならないための10段階所収。
+<br>
+                      　　<a href="news/HR20171115.pdf" target="_blan">人権資料2017</a> 
+
+                    </TD>
+                  </TR>
+   <TR> 
+                    <TD CLASS="underline" WIDTH="60" ALIGN="LEFT" VALIGN="TOP">2017.10.15</TD>
+                    <TD CLASS="underline" WIDTH="400" ALIGN="LEFT" VALIGN="TOP">10月14日に坂井市で実践した食農
+地球教育でFoFプロジェクトのクックブックをまとめました。赤字の部分をカスタマイズしてお使いください。詳しくはhttp://ericweblog.exblog.jp/237917186/参照。<br>
+                      　　<a href="news/FoFCookbook2017.pdf" target="_blan">食べ物を通して地球温暖化対策を考えるエコアクション</a> 
+
+                    </TD>
+                  </TR>
+ <TR> 
+                    <TD CLASS="underline" WIDTH="60" ALIGN="LEFT" VALIGN="TOP">2017.8.1</TD>
+                    <TD CLASS="underline" WIDTH="400" ALIGN="LEFT" VALIGN="TOP">フード・ファースト・カリキュラムの「レストラン　エネルギー亭」を日本の和食でも作ってみた絵本です。<br>
+                      　　<a href="news/EnergyRestaurantv.pdf" target="_blan">絵本「エネルギー　レストラン」地球にやさしい食卓へようこそ!</a> 
+
+                    </TD>
+                  </TR>
+   <TR> 
+                    <TD CLASS="underline" WIDTH="60" ALIGN="LEFT" VALIGN="TOP">2017.8.1</TD>
+                    <TD CLASS="underline" WIDTH="400" ALIGN="LEFT" VALIGN="TOP">『木のカルタ』PLTの会議で、日本におけるさまざまな木と木の活用である製品を紹介するためにまとめた・烽ﾌ。<br>
+                      　　<a href="news/EveryTreeforItself.pdf" target="_blan">Every Tree For Itself</a> 
+
+                    </TD>
+                  </TR>
+    <TR> 
+                    <TD CLASS="underline" WIDTH="60" ALIGN="LEFT" VALIGN="TOP">2017.6.2</TD>
+                    <TD CLASS="underline" WIDTH="400" ALIGN="LEFT" VALIGN="TOP">FoF食農教育カリキュラム開発プロジェクトの資料です。食育に対してESDの視点をとりいれたものです。<br>
+                      　　<a href="news/FoF07v2LB.pdf" target="_blan">食農教育2007</a> 
+
+                    </TD>
+                  </TR>
+      <TR> 
+                    <TD CLASS="underline" WIDTH="60" ALIGN="LEFT" VALIGN="TOP">2017.4.6</TD>
+                    <TD CLASS="underline" WIDTH="400" ALIGN="LEFT" VALIGN="TOP">PLTファシリテーターハンドブックおよびPLT環境教育推進のための資料のPDFです・Bファシリテーターの方はPLTファシリテ・[ターズ・コーナーにログインしてwordファイルをダウンロードできます。<br>
+                      　　<a href="news/FHB08LB.pdf" target="_blank">PLT/ERICファシリテーター・ハンドブック</a> 
+<BR> 
+                      　　<a href="news/PLT2006pack.pdf" target="_blank">PLT推進ハンドブック</a> 
+                    </TD>
+                  </TR>
+   <TR> 
+                    <TD CLASS="underline" WIDTH="60" ALIGN="LEFT" VALIGN="TOP">2017.3.16</TD>
+                    <TD CLASS="underline" WIDTH="400" ALIGN="LEFT" VALIGN="TOP">「問うこころ」を育てるQFT質問づくり技法のすすめ方をまとめました。資料８ページ。改訂版9頁。ダウンロードしてご活用ください。<br>
+                      　　<a href="news/QFT.pdf" target="_blank">「問うこころ」を育てるQFT質問づくり技法のすすめ方</a> 
+<BR>
+                      　　<a href="news/QFT2017.pptx" target="_blank">「問うこころ」を育てるQFT質問づくり技法のすすめ方v2 パワーポイント版</a> 
+                    </TD>
+                  </TR>
+    <TR> 
+                    <TD CLASS="underline" WIDTH="60" ALIGN="LEFT" VALIGN="TOP">2017.2.3</TD>
+                    <TD CLASS="underline" WIDTH="400" ALIGN="LEFT" VALIGN="TOP">人権教育指導者育成研修用資料を改訂しました。6ページ。ダウンロードしてご活用ください。紙媒体での提供は200円です。<br>
+                      　　<a href="news/HR20170203.pdf" target="_blank">人権資料「気づきから行動へ」</a> 
+
+                    </TD>
+                  </TR>
+     <TR> 
+                    <TD CLASS="underline" WIDTH="60" ALIGN="LEFT" VALIGN="TOP">2016.11.4</TD>
+                    <TD CLASS="underline" WIDTH="400" ALIGN="LEFT" VALIGN="TOP">人権教・邇w導者育成・､修用・送ｿです。5ページ。ダウンロードしてご活用ください。紙媒体での提供は200円です。<br>
+                      　　<a href="news/HR2016siryo.pdf" target="_blank">人権資料「気づきから行動へ」</a> 
+
+                    </TD>
+                  </TR>
+     <TR> 
+                    <TD CLASS="underline" WIDTH="60" ALIGN="LEFT" VALIGN="TOP">2016.11.2</TD>
+                    <TD CLASS="underline" WIDTH="400" ALIGN="LEFT" VALIGN="TOP">スキル指導の指導者育成プログラム。Ｓkill 3by3　紙媒体での提供は500円です。<br>
+                      　　<a href="news/SKILL 3x3v3.pdf" target="_blank">SKILL 3by3</a> 
+
+                    </TD>
+                  </TR>
+   <TR> 
+                    <TD CLASS="underline" WIDTH="60" ALIGN="LEFT" VALIGN="TOP">2016.8.16</TD>
+                    <TD CLASS="underline" WIDTH="400" ALIGN="LEFT" VALIGN="TOP">ＥＳＤをすべての人に！『特別なニーズに応える』ためのチェックシート・ﾅす。<br>
+                      　　<a href="news/ESDSpecialNeeds.pdf" target="_blank">特別なニーズに応える</a> 
+
+                    </TD>
+                  </TR>
+      <TR> 
+                    <TD CLASS="underline" WIDTH="60" ALIGN="LEFT" VALIGN="TOP">2016.7.16</TD>
+                    <TD CLASS="underline" WIDTH="400" ALIGN="LEFT" VALIGN="TOP">『野外活動をすべての人に』Making Outdoor Programs Accessible抄訳 <br>
+                      　　<a href="news/Making Outdoor Programs Accessible.pdf" target="_blank">Making Outdoor Programs Accessible</a> 
+
+                    </TD>
+                  </TR>
+    <TR> 
+                    <TD CLASS="underline" WIDTH="60" ALIGN="LEFT" VALIGN="TOP">2016.1.17</TD>
+                    <TD CLASS="underline" WIDTH="400" ALIGN="LEFT" VALIGN="TOP">大学生のための二日間コミュニケーション力講座の資料です。<br>
+                      　　<a href="news/TKB2016journal.pdf" target="_blank">対立は悪くない</a> 
+
+                    </TD>
+                  </TR>
+   <TR> 
+                    <TD CLASS="underline" WIDTH="60" ALIGN="LEFT" VALIGN="TOP">2016.1.17</TD>
+                    <TD CLASS="underline" WIDTH="400" ALIGN="LEFT" VALIGN="TOP">行政職員のための２．５時間研修用資料です。<br>
+                      　　<a href="news/HRforPublicOfficer.pdf" target="_blank">人権学習資料</a> 
+
+                    </TD>
+                  </TR>
+
+    <TR> 
+                    <TD CLASS="underline" WIDTH="60" ALIGN="LEFT" VALIGN="TOP">2015.12.23</TD>
+                    <TD CLASS="underline" WIDTH="400" ALIGN="LEFT" VALIGN="TOP">ナオミ・クラインの「これがすべてを変える」上映会資料です<br>
+                      　　<a href="news/TCEscript.pdf" target="_blank">TCE資料</a> 
+
+                    </TD>
+                  </TR>
+   <TR> 
+                    <TD CLASS="underline" WIDTH="60" ALIGN="LEFT" VALIGN="TOP">2015.2.24</TD>
+                    <TD CLASS="underline" WIDTH="400" ALIGN="LEFT" VALIGN="TOP"> PLTGreenSchools!「学校立地調査」「廃棄物調査」を翻訳しました。その他、調査シートも参照してください。<br>
+                      　<a href="news/PLTgsSchoolSite10point.pdf" target="_blank">PLTgs学校立地調査</a> <BR>
+　　　　　　　　　　　<a href="news/PLTgsWaste.pdf" target="_blank">PLTgs廃棄物調査</a> <BR>
+                     　<a href="news/PLTgs waste_worksheets.pdf" target="_blank">PLTgs・p棄物調査シートeng</a> <BR>
+                     　<a href="news/PLTgs water_worksheets.pdf" target="_blank">PLTgs水調査シートeng</a> <BR>
+                     　<a href="news/PLTgs energy_worksheets.pdf" target="_blank">PLTgsエネルギー調査シートeng</a> <BR>
+
+
+
+
+                    </TD>
+                  </TR>
+    <TR> 
+                    <TD CLASS="underline" WIDTH="60" ALIGN="LEFT" VALIGN="TOP">2014.6.23</TD>
+                    <TD CLASS="underline" WIDTH="400" ALIGN="LEFT" VALIGN="TOP"> PLT「森の健康診断」を翻訳しました。<br>
+                      　　<a href="news/ForestHealthCheck.pdf" target="_blank">森の健康診断</a> 
+
+                    </TD>
+                  </TR>
+    <TR> 
+                    <TD CLASS="underline" WIDTH="60" ALIGN="LEFT" VALIGN="TOP">2014.6.23</TD>
+                    <TD CLASS="underline" WIDTH="400" ALIGN="LEFT" VALIGN="TOP"> オーストラリア、グリフィス大学のジョン・フィエン氏「Learning to Careを翻訳しました。<br>
+                      　　<a href="news/LearningtoCare.pdf" target="_blank">Learning to Care</a> 
+
+                    </TD>
+                  </TR>
+ <TR> 
+                    <TD CLASS="underline" WIDTH="60" ALIGN="LEFT" VALIGN="TOP">2014.4.7</TD>
+                    <TD CLASS="underline" WIDTH="400" ALIGN="LEFT" VALIGN="TOP"> 学生団体フォレストノヴァとＰＬＴのコラボレーションの報告です。<br>
+                      　　<a href="news/PLTForestNova2014.pdf" target="_blank">Ｆｏｒｅｓｔ　Ｎｏｖａ／ＰＬＴショートプログラム2012年－2013年</a> 
+
+                    </TD>
+                  </TR>
+    <TR> 
+                    <TD CLASS="underline" WIDTH="60" ALIGN="LEFT" VALIGN="TOP">2014.3.18</TD>
+                    <TD CLASS="underline" WIDTH="400" ALIGN="LEFT" VALIGN="TOP"> 『平和教育　平和の文化への道』のダウンロードはこちらから<br>
+                    <a href="news/pePartI.pdf" target="_blank">第一部</a> &nbsp; <a href="news/pePartII.pdf" target="_blank">第二部</a> &nbsp; <a href="news/pePartIII.pdf" target="_blank">第三部</a> 
+                    </TD>
+                  </TR>
+
+                  <TR> 
+                    <TD CLASS="underline" WIDTH="60" ALIGN="LEFT" VALIGN="TOP">2012.6.10</TD>
+                    <TD CLASS="underline" WIDTH="400" ALIGN="LEFT" VALIGN="TOP"> PLT『リスクに焦点』翻訳版、必要部数オンデマンド印刷いたします。<br>
+                      　　<a href="http://focusrisk.exblog.jp/15493052/" target="_blank">http://focusrisk.exblog.jp/15493052/</a> 
+                    </TD>
+                  </TR>
+                  <TR> 
+                    <TD CLASS="underline" WIDTH="60"  ALIGN="LEFT" VALIGN="TOP">2010.7.9</TD>
+                    <TD CLASS="underline" WIDTH="400" ALIGN="LEFT" VALIGN="TOP"> 
+                      <A HREF="doc/text20100709.pdf">PLT 幼児期からの・ﾂ境・ﾌ験 翻訳が出来・繧ｪりました。</A> 
+                      <DIV ALIGN="RIGHT" WIDTH="100%"> <IMG SRC="image/rect_link.gif"><A HREF="text01.html#PRE-K8">&nbsp;詳細はこちらから</A> 
+                      </DIV></TD>
+                  </TR>
+                  <TR> 
+                    <TD CLASS="underline" WIDTH="60"  ALIGN="LEFT" VALIGN="TOP">2009.9.14</TD>
+                    <TD CLASS="underline" WIDTH="400" ALIGN="LEFT" VALIGN="TOP"> 
+                      EPLT PreK-8合冊版2009年　パイロットバージョン「木と学ぼう」<BR>
+                      ～よりよい質の環境教育を目指して～ 
+                      <DIV ALIGN="RIGHT" WIDTH="100%"> <IMG SRC="image/rect_link.gif"><A HREF="text01.html#PRE-K8">&nbsp;詳細はこちらから</A> 
+                      </DIV></TD>
+                  </TR>
+                  <TR> 
+                    <TD CLASS="underline" WIDTH="60"  ALIGN="LEFT" VALIGN="TOP">2009.4.14</TD>
+                    <TD CLASS="underline" WIDTH="400" ALIGN="LEFT" VALIGN="TOP"> 
+                      ERIC設立20周年を記念しファシリテーターのための二冊をまとめました。<BR>
+                      　「贈る　ことば」　は、ファシリテーターとしての心がけを<BR>
+                      　「問う　こころ」　は、ファシリテーターとして成長の視点を<BR>
+                      まとめたものです。<BR> <DIV ALIGN="RIGHT" WIDTH="100%"> <IMG SRC="image/rect_link.gif"><A HREF="text01.html#OKURU-KOTOBA">&nbsp;詳細はこちらから</A> 
+                      </DIV></TD>
+                  </TR>
+                </TABLE>
+					</DIV>
+ <iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=1ih670nkkc71eujso9vko7q4us%40group.calendar.google.com&amp;color=%23711616&amp;ctz=Asia%2FTokyo" style="border-width:0" width="800" height="600" frameborder="0" 
+
+					<!--・｣▲▲▲ MAIN(本文) ▲▲▲▲-->
+					</TD>
+					<TD CLASS="brank" VALIGN="TOP" ALIGN="CENTER">&nbsp;</TD><!-- brank -->
+				</TR>
+			</TABLE>
+		</TD>
+		<!--▼▼ right(リンク) ▼▼-->
+		<TD CLASS="right" VALIGN="TOP" ALIGN="CENTER" HEIGHT="100%">
+			<BR><IMG SRC="image/lbl_pickup.gif"><BR><BR>
+			<SCRIPT LANGUAGE="JavaScript">WriteRightLinks();</SCRIPT>
+		</TD>
+		<!--▲▲ right(リンク) ▲▲-->
+	</TR>
+	<!-- footer -->
+	<TR CLASS="nb">
+		<TD CLASS="left"  VALIGN="TOP"    ALIGN="CENTER"  HEIGHT="100%"><BR><SCRIPT src="cnt/counter.php"></SCRIPT><BR><BR></TD><!-- left  -->
+		<TD CLASS="main"  VALIGN="BOTTOM" ALIGN="CENTER"><BR><BR></TD>               <!-- main  -->
+		<TD CLASS="right" VALIGN="TOP"    ALIGN="CENTER"  HEIGHT="100%"><BR><BR></TD><!-- right -->
+	</TR>
+	<TR>
+		<!-- Copyright -->
+		<TD COLSPAN="3">
+			<TABLE BORDER="0" CELLPADDING="0" CELLSPACING="3" CLASS="copyright">
+				<TR><TD ALIGN="CENTER">Copyright(C)2008 International Education  Resource & Innovation Center All Rights Reserved.</TD></TR>
+			</TABLE>
+		</TD>
+	</TR>
+</TABLE>
+</CENTER>
+</BODY>
+</HTML>
